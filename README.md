@@ -2,7 +2,7 @@
 Predict the type of flower in a picture using a saved pretrained deep learning model loaded from a checkpoint. Display the predicted top K-values and corresponding probabilities.
 
 ## Usage instructions
-Run predict.py in the terminal and enter the filepath of a picture of a flower on the local computer in the function call to have the program predict the type of flower and output its name along with the probability of the prediction. The function call need only include the file name and the picture directory, i.e.:
+Run predict.py in the terminal and enter the filepath of a picture of a flower on the local computer in the function call to have the program predict the type of flower and output its name along with the probability of the prediction. The function call need only include the file name and the picture directory, i.e.:<br>
 python predict.py --dir 'flowers/valid/12/image_03997.jpg'
 
 Three additional parameters are also available to be defined by the user:
