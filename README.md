@@ -1,8 +1,8 @@
 # Image-Classifier-Application
-This application classifies the type of flower visible in a picture using a saved pretrained deep learning model loaded from a checkpoint. After running the application in the command line, the user is presented with the top K most likely categories predicted along with corresponding probabilities.
+This image-classifier-application is able to classify the type of flower visible in a picture (chosen by the user) using a saved pretrained deep learning model loaded from a checkpoint, which has been trained to recognize a total of 102 different flowering plant species. After running the application from the command line, the user is presented with the top K most likely categories predicted along with corresponding probabilities.
 
 ## Usage instructions
-Run predict.py in the terminal and enter the filepath of a picture of a flower on the local computer in the function call to have the program predict the type of flower and output its name along with the probability of the prediction. The function call need only include the file name and the picture directory, i.e.:<br>
+Run predict.py from the command prompt/terminal and enter the filepath of a picture of a flower on the local computer in the function call to have the program predict the type of flower and output its name along with the probability of the prediction. The function call need only include the file name and the picture directory, i.e.:<br>
 python predict.py --dir 'flowers/valid/12/image_03997.jpg'
 
 Three additional parameters are also available to be defined by the user:
